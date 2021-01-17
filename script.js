@@ -25,6 +25,7 @@ if (workEvents) {
   planWorkday = workEvents;
 }
 
+/* Current Day */
   $("#currentDay").text(today);
 
 
