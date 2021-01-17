@@ -50,3 +50,9 @@ function colorRow(time) {
 	}
 }
 
+$(".saveBtn").on("click", function() {
+	var blockID = parseInt(
+		$(this)
+			.closest(".time-block")
+			.attr("id")
+	);
