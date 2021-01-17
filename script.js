@@ -6,6 +6,7 @@ var today = moment().format("dddd, MMMM Do");
 
 var now = moment().format("H A");
 
+/* planWorkday entries for each hour of the workday */
 var planWorkday = [
     { time: "9 AM", event: "" },
     { time: "10 AM", event: "" },
