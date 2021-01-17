@@ -19,6 +19,12 @@ var planWorkday = [
     { time: "5 PM", event: "" },
   ];
 
+  /* Local Storage check */
+var workEvents = JSON.parse(localStorage.getItem("workDay"));
+if (workEvents) {
+  planWorkday = workEvents;
+}
+
   $("#currentDay").text(today);
 
 
