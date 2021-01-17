@@ -55,4 +55,15 @@ $(".saveBtn").on("click", function() {
 		$(this)
 			.closest(".time-block")
 			.attr("id")
+
+    );
+	var userEntry = $.trim(
+		$(this)
+			.parent()
+			.siblings("textarea")
+			.val()
 	);
+    planWorkday[blockID].event = userEntry;
+    
+    localStorage.setItem("workDay", JSON.stringify(planWorkday));
+});
