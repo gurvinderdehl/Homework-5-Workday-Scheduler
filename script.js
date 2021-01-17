@@ -47,7 +47,7 @@ if (workEvents) {
  /* Adding rows to container div */
 	$(".container").append(row);
 });
-
+/* Colour rows based on current time */
 function colorRow(time) {
 	var planNow = moment(now, "H A");
     var planEntry = moment(time, "H A");
