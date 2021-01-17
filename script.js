@@ -35,3 +35,9 @@ var planWorkday = [
 
 	$(".container").append(row);
 });
+
+function colorRow(time) {
+	var planNow = moment(now, "H A");
+	var planEntry = moment(time, "H A");
+}
+
