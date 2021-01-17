@@ -8,3 +8,5 @@ I learnt the use of of JQuery within my code, to make the contents of the calend
 
 #### For the future 
 For the future I would like to incorporate what I have learnt when using Jquery. Whether it be the use of the various libraries available or showing that I am cable of understanding what is being done, but most importantly bringing it all together with the HTML and CSS. As this is what makes a site look average to great. I’m still not as comfortable as I like to be with it as there’s a long way to go, but I’m confident that I will get there! 
+
+###### Screenshots & Link to site
