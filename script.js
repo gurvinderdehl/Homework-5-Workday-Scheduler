@@ -43,7 +43,8 @@ if (workEvents) {
 		'">' +
 		timeBlock.event +
 		'</textarea><div class="col-sm col-lg-1 input-group-append"><button class="saveBtn btn-block" type="submit"><i class="fas fa-save"></i></button></div></div></div>';
-
+       
+ /* Adding rows to container div */
 	$(".container").append(row);
 });
 
