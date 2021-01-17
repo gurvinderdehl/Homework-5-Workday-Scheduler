@@ -29,6 +29,7 @@ if (workEvents) {
   $("#currentDay").text(today);
 
 
+/* Create rows */
   planWorkday.forEach(function(timeBlock, index) {
 	var timeLabel = timeBlock.time;
 	var blockColor = colorRow(timeLabel);
