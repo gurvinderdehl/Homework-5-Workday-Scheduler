@@ -38,6 +38,15 @@ var planWorkday = [
 
 function colorRow(time) {
 	var planNow = moment(now, "H A");
+    var planEntry = moment(time, "H A");
+    var planNow = moment(now, "H A");
 	var planEntry = moment(time, "H A");
+	if (planNow.isBefore(planEntry) === true) {
+		return "future";
+	} else if (planNow.isAfter(planEntry) === true) {
+		return "past";
+	} else {
+		return "present";
+	}
 }
 
